@@ -19,3 +19,6 @@ console.log(undefined < 0);  // false
 // ===     // Strict comaprision we can't comapre String to number 
 
 console.log("2" === 2);   // false 
+
+// read MDN documentation 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
