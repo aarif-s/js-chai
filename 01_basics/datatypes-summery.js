@@ -52,3 +52,29 @@ Object (host  without implement call )  =>
 */
 
  // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+ // *********************************************************************
+ //  Stack (primitive)
+ //  heap (Non-primitive) 
+ //  
+  let myyoutubename = "hitesblablabla"   // stack
+
+  let anothername = myyoutubename     // stack 
+
+  aothername = " chaiaurcode"    // stack
+
+  console.log(myyoutubename)
+  console.log(anothername);
+
+  let userone ={                 // heap 
+    email: "username@gmail.com",
+    upi: "user@ybk"
+
+  }
+  let usertwo = userone     
+   
+  usertwo.email =  "arif@gmail.com"
+
+  console.log(userone.email);
+  console.log(usertwo.email);
