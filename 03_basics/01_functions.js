@@ -39,5 +39,14 @@ function loginusermessage (username = "sam"){      // value over ride
 
 }
 
-  // console.log(loginusermessage("hitesh"));
-console.log(loginusermessage());
+   // console.log(loginusermessage("hitesh"));
+   // console.log(loginusermessage());
+
+
+   // for adding multiple prices like shopping cards 
+
+   function  calculatecartprice (val1,val2,...num1){     // rest operator return a arry of all inputs 
+    return num1                                          // we can add all these things using loop
+   }                                                     // [ 400, 500 ]
+   console.log(calculatecartprice(200,300,400,500));
+
