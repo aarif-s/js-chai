@@ -8,7 +8,7 @@
   tinderUser.name = " Sammy"
   tinderUser.isLoggedIn = false
  
-  console.log(tinderUser);
+ // console.log(tinderUser);
 
 const regularUser = {
     email : "some@gmail.com",
@@ -34,7 +34,7 @@ const regularUser = {
  //  console.log(obj3);
 
  const obj3 = {...obj1,...obj2}
-  console.log(obj3);
+ // console.log(obj3);
 
   const users = [       // objects in arrays 
     {
@@ -53,20 +53,60 @@ const regularUser = {
 
   users[1].email
 
-   console.log(tinderUser);
+//    console.log(tinderUser);
 
-   console.log(Object.keys(tinderUser));    // for returning all keys of any bject here object is tindeuser 
-                                           // return type is array
-                                        // [ 'id', 'name', 'isLoggedIn' ]
+//    console.log(Object.keys(tinderUser));    // for returning all keys of any bject here object is tindeuser 
+//                                            // return type is array
+//                                         // [ 'id', 'name', 'isLoggedIn' ]
 
-   console.log(Object.values(tinderUser));      // for all value related to keys                            
+//    console.log(Object.values(tinderUser));      // for all value related to keys                            
                                                 // [ '123abc', ' Sammy', false ]
 
-    console.log(Object.entries(tinderUser));   //   [ [ 'id', '123abc' ], [ 'name', ' Sammy' ], [ 'isLoggedIn', false ] ]                                         
+    // console.log(Object.entries(tinderUser));   //   [ [ 'id', '123abc' ], [ 'name', ' Sammy' ], [ 'isLoggedIn', false ] ]                                         
 
-    console.log(tinderUser.hasOwnProperty(`isLoggedIn`));    // true  // for checking it method me property h ki nhi
+    // console.log(tinderUser.hasOwnProperty(`isLoggedIn`));    // true  // for checking it method me property h ki nhi
 
-    console.log(tinderUser.hasOwnProperty(`isLog`));    // false 
+    // console.log(tinderUser.hasOwnProperty(`isLog`));    // false 
 
+
+     // destructuring of values  objects *******************************  
+
+
+
+     const course ={
+        coursename : " js in hindi ",
+        price : 999,
+        courseInstructor : " Hitesh"
+     }
+    
+     // course.courseInstructor 
+
+    //  const {courseInstructor} =  course 
+
+    //  console.log(courseInstructor);
+
+    const {courseInstructor : instructor } =  course 
+
+     console.log(instructor);
+
+     // ******** APIS ***********
+     
+     // JSON  
+
+    //  {
+    //     "NAME" : " hitesh",                 // keys and values must be written like stings
+    //     "cousename" : "js in hindi",
+    //     "price" : "free"
+
+     [
+        {},
+        {},
+        {}
+
+    ]
+
+
+
+      
 
 
