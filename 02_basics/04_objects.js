@@ -32,9 +32,9 @@ const regularUser = {
 
 // const  obj3 = Object.assign({},obj1,obj2)     // {} is target and all obj are source 
  //  console.log(obj3);
-
- const obj3 = {...obj1,...obj2}
- // console.log(obj3);
+ 
+ const obj3 = {...obj1,...obj2}      // best way to add 
+  console.log(obj3);                 // { '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 
   const users = [       // objects in arrays 
     {
@@ -102,7 +102,6 @@ const regularUser = {
         {},
         {},
         {}
-
     ]
 
 
